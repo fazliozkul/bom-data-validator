@@ -25,3 +25,15 @@ pip install pandas openpyxl
 python validator.py
 
 --This script represents a simplified version of the automation logic I implemented to manage operational data flows, reducing manual verification time by approximately 40%.
+
+```markdown
+## 📸 Sample Validation Run
+```text
+> python validator.py
+
+Loading 'production_bom_v2.xlsx'...
+⚠️ Warning: 2 items missing descriptions (Rows: 12, 45).
+❌ Error: 1 item has negative cost values (Row: 33).
+ℹ️ Info: 5 items are below safety stock levels.
+
+Validation Complete. Report generated.
