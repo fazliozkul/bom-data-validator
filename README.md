@@ -18,3 +18,10 @@ This Python-based automation tool is designed to validate **Bill of Materials (B
 1. Clone the repository:
    ```bash
    git clone [https://github.com/fazliozkul/bom-data-validator.git](https://github.com/fazliozkul/bom-data-validator.git)
+---Install the required library:
+pip install pandas openpyxl
+
+---Run the script (it will generate a dummy Excel file and validate it):
+python validator.py
+
+--This script represents a simplified version of the automation logic I implemented to manage operational data flows, reducing manual verification time by approximately 40%.
